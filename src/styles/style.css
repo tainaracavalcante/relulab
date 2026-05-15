@@ -1,0 +1,340 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+  background:#dff0ff;
+  color:#123;
+}
+
+header{
+  background:white;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 8%;
+  position:sticky;
+  top:0;
+}
+
+.logo{
+  font-size:28px;
+  font-weight:bold;
+  color:#1b4f91;
+}
+
+nav a{
+  margin:0 15px;
+  text-decoration:none;
+  color:#1b4f91;
+  font-weight:600;
+}
+
+header button{
+  background:#1b4f91;
+  color:white;
+  border:none;
+  padding:10px 20px;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.hero{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:80px 8%;
+  gap:40px;
+}
+
+.hero-text{
+  width:50%;
+}
+
+.hero-text h1{
+  font-size:52px;
+  color:#1b4f91;
+  margin-bottom:20px;
+}
+
+.hero-text p{
+  font-size:18px;
+  margin-bottom:30px;
+}
+
+.hero-buttons{
+  display:flex;
+  gap:15px;
+}
+
+.btn-azul{
+  background:#1b4f91;
+  color:white;
+  border:none;
+  padding:14px 25px;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+.btn-branco{
+  background:white;
+  border:none;
+  padding:14px 25px;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+.hero-image img{
+  width:200px;
+  border-radius:20px;
+  z-index: 1;
+}
+
+.sobre{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:80px 8%;
+  gap:50px;
+}
+
+.sobre img{
+  width:400px;
+  border-radius:20px;
+}
+
+.sobre-text{
+  width:50%;
+}
+
+.sobre-text h2{
+  color:#1b4f91;
+  font-size:38px;
+  margin-bottom:20px;
+}
+
+.numeros{
+  display:flex;
+  gap:40px;
+  margin-top:30px;
+}
+
+.numeros h3{
+  color:#1b4f91;
+  font-size:35px;
+}
+
+.servicos{
+  padding:80px 8%;
+}
+
+.servicos h2{
+  text-align:center;
+  color:#1b4f91;
+  margin-bottom:50px;
+  font-size:38px;
+}
+
+.cards{
+  display:flex;
+  gap:30px;
+}
+
+.card{
+  background:white;
+  border-radius:20px;
+  overflow:hidden;
+  width:300px;
+  height: auto;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+}
+
+.card img{
+  width:100%;
+  height:250px;
+  object-fit:cover;
+}
+
+.card h3{
+  padding:20px;
+  text-align:center;
+  color:#1b4f91;
+}
+
+.depoimentos{
+  padding:80px 8%;
+}
+
+.depoimentos h2{
+  text-align:center;
+  margin-bottom:40px;
+  color:#1b4f91;
+}
+
+.comentarios{
+  display:flex;
+  gap:20px;
+}
+
+.comentario{
+  background:white;
+  padding:30px;
+  border-radius:20px;
+}
+
+.contato{
+  padding:80px 8%;
+}
+
+.contato h2{
+  color:#1b4f91;
+  margin-bottom:40px;
+}
+
+.info-contato{
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+  
+}
+
+.info-contato div{
+  background:white;
+  padding:30px;
+  width:100%;
+  border-radius:20px;
+}
+
+footer{
+  background:white;
+  text-align:center;
+  padding:30px;
+  margin-top:50px;
+}
+
+@media(max-width:900px){
+
+  .hero,
+  .sobre,
+  .cards,
+  .comentarios,
+  .info-contato{
+    flex-direction:column;
+  }
+
+  .hero-text,
+  .sobre-text{
+    width:100%;
+  }
+
+  .hero-image img,
+  .sobre img{
+    width:100%;
+  }
+
+  .hero-text h1{
+    font-size:38px;
+  }
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rodape{
+    background-color: #e9edf2;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cadastro{
+    background-color: #dce7f2;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.texto-cadastro h2{
+    color: #003b80;
+    margin-bottom: 10px;
+}
+
+.texto-cadastro p{
+    color: #333;
+    width: 400px;
+    line-height: 22px;
+} 
+
+.campo-email{
+    display: flex;
+}
+
+.campo-email input{
+    width: 250px;
+    padding: 15px;
+    border: 1px solid #999;
+    outline: none;
+}
+
+.campo-email button{
+    background-color: #003b80;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.menu-rodape{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.logo h1{
+    color: #003b80;
+    font-size: 35px;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna h3{
+    color: #003b80;
+    margin-bottom: 15px;
+}
+
+.coluna a{
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+.final-rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-finais a{
+    margin-left: 15px;
+     text-decoration: none;
+    color: #222;
+}
