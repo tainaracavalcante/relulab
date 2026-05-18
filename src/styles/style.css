@@ -141,6 +141,7 @@ header button{
 .cards{
   display:flex;
   gap:30px;
+  justify-content: center;
 }
 
 .card{
@@ -170,6 +171,7 @@ header button{
 
 .depoimentos{
   padding:80px 8%;
+  height: 500px;
 }
 
 .depoimentos h2{
