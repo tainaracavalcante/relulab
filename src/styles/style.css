@@ -102,8 +102,9 @@ header button{
 }
 
 .sobre img{
-  width:400px;
-  border-radius:20px;
+  width:640px;
+  border-radius:30px;
+  height: 600px;
 }
 
 .sobre-text{
